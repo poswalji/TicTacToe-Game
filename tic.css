@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.msg_contenar {
+    display: flex;
+    justify-content: center;
+    height: 60vmin;
+}
+
+.body {
+    background-color: #548687;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 3rem;
+    background-color: #919292;
+}
+
+.box {
+    display: flex;
+    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 2px;
+
+
+}
+
+.div {
+    margin-top: 1.5px;
+    width: 95px;
+    height: 95px;
+    border: none;
+    background-color: rgb(253, 240, 123);
+    border-radius: 10%;
+    font-size: 3rem;
+    color: #b0413e
+}
+
+
+
+.one {
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: azure;
+    margin-top: 10vmin;
+    font-size: 1.5rem;
+
+    border: 2px solid black;
+    border-radius: 10%;
+
+
+
+}
+
+.reset {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: azure;
+    margin-top: 10vmin;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    border: 2px solid black;
+
+}
+
+.presetgame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+    border-color: black;
+    background-color: rgb(46, 49, 219);
+
+}
+
+#msg {
+    color: white;
+    font-size: 5rem;
+    margin-top: 20vmin;
+
+
+}
+
+.hide {
+    display: none;
+}
